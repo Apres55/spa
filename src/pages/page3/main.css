@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    background: #FAFAFA;
+    padding: 0;
+    margin: 0;
+    min-width: 470px;
+}
+
+p {
+    margin: 0;
+}
+
+a { 
+    text-decoration: none;
+}
+
+hr {
+    margin: 0;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.nav-cont {
+    padding: 0;
+}
+
+
+    /* nav nav nav nav nav anv */
+
+    .navbar {
+        height: 3.5rem;
+        border-bottom: rgba(189, 189, 189, 0.514)  solid;
+        border-width: 1px;
+    }
+
+    .mini-ellipse {
+        border-radius: 100%;
+        width: 1.5rem;
+    }
+
+.form-control {
+    width: 14vw;
+    height: 2rem;
+    background-image: url(images/search.svg);
+    background-repeat: no-repeat;
+    text-align: center;
+    background-position-x: 30%;
+    background-position-y: 57%;
+    font-size: 90%;
+}
+
+.form-control::after {
+    background-position: top;
+}
+
+.form-control:hover,
+.form-control:focus,
+.form-control:active,
+.form-control:after {
+    cursor: pointer;
+    background-image: none;
+    animation-fill-mode: forwards;
+}
+
+.tg {
+    width: 1.2rem;
+    height: 1rem;
+    display: -webkit-inline-box;
+
+}
+
+.redEllipse {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 100%;
+    background: #DC565B;
+    z-index: 2;
+    text-align: center;
+    font-size: 55%;
+    font-weight: bold;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 0.6rem;
+    bottom: 0.1rem;
+}
+
+/* head head head head head head */
+
+.ellipse {
+    border-radius: 100%;
+}
+
+.ellipse-bar-item>img {
+    width: 4.5rem;
+    padding: 2%;
+    border: solid rgba(110, 110, 110, 0.281);
+    border-width: 1px;
+    cursor: pointer;
+}
+
+.ellipse-bar-item>img:hover {
+    padding: 3%;
+}
+
+.ellipse-bar {
+    margin: 5vh 0 5vh 5vw;
+}
+
+.avatar>img {
+    width: 50%;
+}
+
+h2 {
+    padding-right: 1vw;
+}
+
+.dots {
+    min-width: 1.4rem;
+    cursor: pointer;
+}
+
+.btn-primary {
+    padding: 0.2rem 2rem;
+}
+
+.btn {
+    background: #4094EF;
+}
+
+#btnGroupDrop1 {
+    padding: 0.2rem 0.7rem 0.2rem 0.5rem;
+}
+/*main main main*/
+
+.noBord {
+    padding: 2vh 0;
+    margin: 0 1vw;
+    border: none;
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3vw;
+}
+
+.frstBtn {
+    border-top: rgba(75, 75, 75, 0.514) solid;
+    border-width: 1px;
+}
+
+.noBord:hover,
+.noBord:active,
+.noBord:after {
+    border-top: rgba(75, 75, 75, 0.514) solid;
+    border-width: 1px;
+    color: black;
+}
+
